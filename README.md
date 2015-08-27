@@ -17,16 +17,19 @@ To navigate slideshows, use arrow keys
 #### 대한민국 소프트웨어 카펜트리 
 
 - 소프트웨어 카펜트리 교재
-*  [GitHub 저장소](https://github.com/statkclee/xwmooc-sc)
-*  [xwMOOC 소프트웨어 카펜트리](http://xwmooc.net/swcarpentry/)
+    *  [GitHub 저장소](https://github.com/statkclee/xwmooc-sc)
+    *  [xwMOOC 소프트웨어 카펜트리](http://xwmooc.net/swcarpentry/)
 - 소프트웨어 카펜트리 워크샵
-*  [한국전파진흥협회(RAPA)](http://statkclee.github.io/2015-02-25-seoul/)
-*  [경기콘텐츠코리아랩](http://statkclee.github.io/2015-04-29-pangyo/)
-*  [연세대학교](http://statkclee.github.io/2015-06-29-yonsei/)
-*  [나노종합기술원 대전창조경제혁신센터](http://statkclee.github.io/2015-08-20-daejeon/)
-- [소프트웨어 카펜트리 1년...](./korea/index.html)
+    *  [한국전파진흥협회(RAPA)](http://statkclee.github.io/2015-02-25-seoul/)
+    *  [경기콘텐츠코리아랩](http://statkclee.github.io/2015-04-29-pangyo/)
+    *  [연세대학교](http://statkclee.github.io/2015-06-29-yonsei/)
+    *  [나노종합기술원 대전창조경제혁신센터](http://statkclee.github.io/2015-08-20-daejeon/)
+- [소프트웨어 카펜트리 1년...](./korea/index.html)  
 
+#### DIY 소프트웨어 카펜터 과정
 
+- 소프트웨어 카펜트리 MOOC (2010)
+    *  [SW Carpentry Version 4](http://software-carpentry.org/lessons.html)
 
 Visualizing Presentations Locally
 ---------------------------------

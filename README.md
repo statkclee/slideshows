@@ -16,6 +16,8 @@ To navigate slideshows, use arrow keys
 
 #### 대한민국 소프트웨어 카펜트리 
 
+- [파이콘 2015 라이트닝 토크](http://www.pycon.kr/2015/program/77)
+    * [한국에서 소프트웨어 카펜트리 1년...](./korea/index.html)  
 - 소프트웨어 카펜트리 교재
     *  [GitHub 저장소](https://github.com/statkclee/xwmooc-sc)
     *  [xwMOOC 소프트웨어 카펜트리](http://xwmooc.net/swcarpentry/)
@@ -24,7 +26,6 @@ To navigate slideshows, use arrow keys
     *  [경기콘텐츠코리아랩](http://statkclee.github.io/2015-04-29-pangyo/)
     *  [연세대학교](http://statkclee.github.io/2015-06-29-yonsei/)
     *  [나노종합기술원 대전창조경제혁신센터](http://statkclee.github.io/2015-08-20-daejeon/)
-- [소프트웨어 카펜트리 1년...](./korea/index.html)  
 
 #### DIY 소프트웨어 카펜터 과정
 

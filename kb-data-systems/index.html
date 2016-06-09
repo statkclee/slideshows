@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <title>KB데이터시스템 워크샵</title>
+    <meta name="author" content="Kwangchun Lee" />
+    <!-- meta name="audio" content="voiceover.ogg" -->
+    <!-- meta name="timings" content="timings.json" -->
+
+    <script src="../css/deckjs-js/deckjs-custom.js"></script>
+    <script>includedeck(["../css/slideshow.css"],{});</script> 
+    <style>
+      .slide.title-slide h1 {padding-bottom: 0;} /* title is long... */
+      a {text-decoration: underline;} /* make links clearer */
+      pre {font-size: 75%;} /* make code blocks smaller */
+    </style>
+  </head>
+  <body>
+    <div class="deck-container">
+
+      <section class="slide title-slide" data-container-class="no-status">
+        <h1>데이터 언어 R 고급과정</h1>
+        <p>2016년 6월</p>
+        <img class="logo" src="../img/xwMOOC.png" alt="xwMOOC logo" />
+      </section>
+
+
+   <section class="slide">
+	<h2>xwMOOC 창업 미션</h2>
+	<div align="center">
+	  <table>
+	    <tr>
+	      <td>창업 당시 문제 정의<br>
+	      정보격차<br>(Digital Divide)</td>
+	      <td>&nbsp;&rArr;&nbsp;</td>
+	      <td>컴퓨팅 사고력<br>
+	      (Computational Thinking,<br>
+	      CT)</td>
+	    </tr>
+	  </table>
+	</div>
+
+      </section>
+
+      <section class="slide">
+	<h2>문제 상세 정의</h2>
+	<ul>
+	  <li>
+	    우리나라 과학기술이 선진국 수준이 아니다.
+	  </li>
+	  <li>
+	    상당량의 가치(Value)는 과학기술에서 나온다.
+	  </li>
+	  <li>
+	    과학공학자 및 일반 영리 및 비영리 단체가 소프트웨어를 얼마나 <em>잘</em> 하고있는지 측정하기는 어렵다.
+	  </li>
+	  <li>
+	    하지만, 주변을 둘어봐도 마이크로소프트, 한글, 인터넷 검색을 잘하면 잘한다고 한다.
+	  </li>
+	</ul>
+      </section>
+
+      <section class="slide">
+	<h2>xwMOOC 해법</h2>
+	<ul>
+	  <li>
+	    한국인을 위한 컴퓨팅 사고력 교육 서비스를 제공
+	  </li>
+	  <li>
+	    전국민이 컴퓨터 공학, 통계학, 전자공학 학사가 필요
+	  </li>
+	</ul>
+	<div align="center">
+	  <table>
+	    <tr>
+	      <td>초등(K6)</td>
+	      <td>&nbsp;&rArr;&nbsp;</td>
+	      <td><a href="http://unplugged.xwmooc.org/">컴퓨터 과학 언플러그드</a></td>
+	    </tr>
+	    <tr>
+	      <td>리보그와 러플</td>
+	      <td>&nbsp;&rArr;&nbsp;</td>
+	      <td><a href="http://reeborg.xwmooc.org/">리보그와 러플</a></td>
+	    </tr>
+	    <tr>
+	      <td>파이썬</td>
+	      <td>&nbsp;&rArr;&nbsp;</td>
+	      <td><a href="http://python.xwmooc.org/">정보교육을 위한 파이썬</a></td>
+	    </tr>
+	    <tr>
+	      <td>소프트웨어 공학</td>
+	      <td>&nbsp;&rArr;&nbsp;</td>
+	      <td><a href="http://swcarpentry.xwmooc.org/">소프트웨어 카펜트리</a></td>
+	    </tr>
+	  </table>
+	</div>
+      </section>
+
+      <section class="slide">
+	<h2>추진 결과(예상)</h2>
+	<ul>
+	  <li>
+	   전국민 생산성 10-20% 평균적으로 향상
+	  </li>
+	  <li>
+	    생산성 10배 이상 향상된 사례발굴
+	  </li>
+	  <li>
+	    작업을 더 빠르게 처리하여 저녁이 있는 삶
+	  </li>
+	  <li>
+	    새로운 문제를 해결에 매진
+	  </li>
+	  <li>
+	    HPC, 클라우드, 빅데이터에 대한 준비 ...
+	  </li>
+	</ul>
+      </section>
+
+	<section class="slide">
+		<h2></h2>
+	      <img src="alphago.jpg" width="120%" />
+    </section>
+
+    <section class="slide">
+		<h2>자동차 혁명(?)</h2>
+            <img src="cluster-case.png" width="100%" />
+    </section>
+
+    <section class="slide">
+		<h2>1. 사고체계</h2>
+            <img src="ct-unplugged-4th-paradigm-korea.png" width="70%" />
+    </section>
+
+
+    <section class="slide">
+		<h2>조용한 혁명</h2>
+            <img src="ebs-coding.png" width="70%" />
+            	<a href="http://www.ebs.co.kr/tv/show?prodId=112912&lectId=10253975">EBS 동영상</a>
+    </section>
+
+      <section class="slide">
+	<h2>2. 과학기술 컴퓨팅(Scientific Computing)</h2>
+	<strong>GDP 성장에 지식(Knowledge) 기여분</strong>
+               <img src="gdp-science-contribution.png" width="70%" />
+	<small>출처: 세계은행(2010), Korea as a Knowledge Economy -Evolutionary Process and Lessons Learned (2006)
+	</small>
+      </section>
+
+  <section class="slide">
+	<h2>스타트업 공학</h2>
+       <img src="devops.png" width="60%" />
+  </section>
+
+
+  <section class="slide">
+	<h2>기승전 <strike>컴퓨터</strike> 제조업</h2>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/PcXLYOMnhd0" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+
+	<section class="slide">
+		<h2></h2>
+	      <img src="Lee_Sedol.jpg" width="100%" />
+    </section>
+
+	<section class="slide">
+		<h2>인공지능(기계학습) xwMOOC</h2>
+	<div align="center">
+	  <table>
+	    <tr>
+	      <td>더이상 공짜는 없다</td>
+	      <td>&nbsp;&rArr;&nbsp;</td>
+	      <td><a href="http://statkclee.github.io/parallel-r/">R 병렬프로그래밍</a></td>
+	    </tr>
+	    <tr>
+	      <td>컴퓨터가 눈을 갖다</td>
+	      <td>&nbsp;&rArr;&nbsp;</td>
+	      <td><a href="http://statkclee.github.io/trilobite/">삼엽충의 전성기를 다시</a></td>
+	    </tr>
+	    <tr>
+	      <td>인간이 보는 데이터</td>
+	      <td>&nbsp;&rArr;&nbsp;</td>
+	      <td><a href="http://statkclee.github.io/data-science/">데이터 과학</a></td>
+	    </tr>
+	    <tr>
+	      <td>새로 정의하는 수학</td>
+	      <td>&nbsp;&rArr;&nbsp;</td>
+	      <td><a href="http://sympy.xwmooc.org/">기호수학(SymPy)</a></td>
+	    </tr>
+	    <tr>
+	      <td><stride>한국형</stride> 슈퍼컴퓨터</td>
+	      <td>&nbsp;&rArr;&nbsp;</td>
+	      <td><a href="http://computers.xwmooc.org/">$100 오픈 슈퍼컴퓨터</a></td>
+	    </tr>
+	    <tr>
+	      <td>기계학습<stride>딥러닝</stride></td>
+	      <td>&nbsp;&rArr;&nbsp;</td>
+	      <td><a href="http://statkclee.github.io/ml/">통계전공자가 바라본 기계학습</a></td>
+	    </tr>	    
+	    <tr>
+	      <td><stride>한국형</stride> 정치</td>
+	      <td>&nbsp;&rArr;&nbsp;</td>
+	      <td><a href="http://politics.xwmooc.org/"> 제20대 총선의 기억</a></td>
+	    </tr>	    	    
+	  </table>
+	</div>
+
+    </section>
+
+      <a class="deck-prev-link">&larr;</span><a class="deck-next-link">&rarr;</a>
+      <p class="deck-status deck-progress-10"><span class="deck-status-current"></span> / <span class="deck-status-total"></span></p>
+
+    </div>
+  </body>
+</html>
